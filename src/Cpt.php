@@ -48,7 +48,7 @@ abstract class Cpt implements Cpt_Contract {
 	 *
 	 * @param array $conf
 	 */
-	public function register(array $conf) {
+	public function register(array $conf = []) {
 
 		$def = $this->get_default_args();
 		$actions = isset($conf['__actions__']) ? $conf['__actions__'] : array();
