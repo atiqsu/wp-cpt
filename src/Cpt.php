@@ -155,7 +155,7 @@ abstract class Cpt implements Cpt_Contract {
 			'label'               => __($plural, $this->text_domain),
 			'description'         => __('A database of '. $singular, $this->text_domain),
 			'labels'              => $labels,
-			'supports'            => array('title', 'editor', 'permalink'),
+			'supports'            => array('title', 'editor', 'permalink'), #Add more supports
 			'hierarchical'        => true,
 			'public'              => true,
 			'show_ui'             => true,
