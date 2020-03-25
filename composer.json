@@ -9,7 +9,7 @@
             "email": "atiqur.su@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev-master",
     "require": {},
     "autoload": {
         "psr-4": {
