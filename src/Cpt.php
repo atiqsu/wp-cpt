@@ -191,6 +191,15 @@ abstract class Cpt implements Cpt_Contract {
 	public function getArguments() {
 		return $this->arguments;
 	}
+
+	/**
+	 *
+	 */
+	public function uninstall() {
+
+		unregister_post_type($this->post_type);
+	}
+
 }
 
  
